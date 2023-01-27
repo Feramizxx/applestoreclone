@@ -55,7 +55,7 @@ function Header() {
           </div>
         </Link>
         {session ? (
-          <Image src={session.user?.image} onClick={()=>signOut()} className="rounded-full cursor-pointer" alt="" width={34} height={34} />
+          <Image src="" onClick={()=>signOut()} className="rounded-full cursor-pointer" alt="" width={34} height={34} />
         ) : (
           <UserIcon className="headerIcon" 
           
