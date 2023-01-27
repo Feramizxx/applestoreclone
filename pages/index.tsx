@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Landing from "../components/Landing";
-import { Fragment } from "react";
 import { GetServerSideProps } from "next";
 import { Tab } from "@headlessui/react";
 import { fetchCategories } from "../utils/fetchCategories";
