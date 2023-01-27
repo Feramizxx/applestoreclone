@@ -27,6 +27,7 @@ function Product({ product }: Props) {
           alt={product.title}
           layout="fill"
           objectFit="contain"
+          sizes=""
         />
       </div>
       <div className="flex flex-1 items-center justify-between space-x-3">
